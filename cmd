@@ -1,1 +1,0 @@
-heroku config:set ENDPOINT='https://api.airtable.com/v0/apps6l3sgNsC4WzOq/Events?api_key=key4RAnp5ZN85bSlE&filterByFormula={Type}="Data Rescue"&fields[]=Name&fields[]=Description&fields[]=Website&fields[]=City&fields[]=State/Province&fields[]=Start Date/Time&fields[]=End Date/Time&fields[]=Est. Attendees&fields[]=Latitude&fields[]=Longitude'
