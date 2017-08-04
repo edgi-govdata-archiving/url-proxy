@@ -19,6 +19,10 @@ func ProxyHandler(url string) func(w http.ResponseWriter, r *http.Request) {
 				w.Write([]byte(fmt.Sprintf("error: %s", err.Error())))
 				return
 			}
+			if resp.StatusCode != http.StatusOK {
+				w.Write([]byte(fmt.Sprintf("invalid response code: %d", resp.StatusCode)))
+				return
+			}
 			defer resp.Body.Close()
 			io.Copy(w, resp.Body)
 		default:
