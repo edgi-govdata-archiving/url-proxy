@@ -1,0 +1,33 @@
+{
+	"ImportPath": "github.com/edgi-govdata-archiving/url-proxy",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/datatogether/config",
+			"Rev": "29c751f56a84b6f95cb5187f6e7363f7cbcd2796"
+		},
+		{
+			"ImportPath": "github.com/joho/godotenv",
+			"Comment": "v1.1",
+			"Rev": "726cc8b906e3d31c70a9671c90a13716a8d3f50d"
+		},
+		{
+			"ImportPath": "github.com/sirupsen/logrus",
+			"Comment": "v0.11.5-46-g5e5dc89",
+			"Rev": "5e5dc898656f695e2a086b8e12559febbfc01562"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/acme",
+			"Rev": "558b6879de74bc843225cde5686419267ff707ca"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/acme/autocert",
+			"Rev": "558b6879de74bc843225cde5686419267ff707ca"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "b90f89a1e7a9c1f6b918820b3daa7f08488c8594"
+		}
+	]
+}
